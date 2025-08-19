@@ -1,21 +1,15 @@
 {
-    "doctrine/annotations": {
-        "version": "1.13",
+    "doctrine/deprecations": {
+        "version": "1.1",
         "recipe": {
             "repo": "github.com/symfony/recipes",
-            "branch": "master",
-            "version": "1.10",
-            "ref": "64d8583af5ea57b7afa4aba4b159907f3a148b05"
+            "branch": "main",
+            "version": "1.0",
+            "ref": "87424683adc81d7dc305eefec1fced883084aab9"
         }
     },
     "doctrine/inflector": {
         "version": "2.0.4"
-    },
-    "doctrine/instantiator": {
-        "version": "1.4.1"
-    },
-    "doctrine/lexer": {
-        "version": "1.2.3"
     },
     "myclabs/deep-copy": {
         "version": "1.11.0"
@@ -121,26 +115,11 @@
     "sebastian/recursion-context": {
         "version": "4.0.4"
     },
-    "sebastian/resource-operations": {
-        "version": "3.0.3"
-    },
     "sebastian/type": {
         "version": "3.0.0"
     },
     "sebastian/version": {
         "version": "3.0.2"
-    },
-    "sensio/framework-extra-bundle": {
-        "version": "6.2",
-        "recipe": {
-            "repo": "github.com/symfony/recipes",
-            "branch": "master",
-            "version": "5.2",
-            "ref": "fb7e19da7f013d0d422fa9bce16f5c510e27609b"
-        },
-        "files": [
-            "config/packages/sensio_framework_extra.yaml"
-        ]
     },
     "symfony/browser-kit": {
         "version": "v6.0.3"
@@ -266,8 +245,17 @@
     "symfony/polyfill-mbstring": {
         "version": "v1.25.0"
     },
-    "symfony/polyfill-php81": {
-        "version": "v1.25.0"
+    "symfony/property-info": {
+        "version": "7.3",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "7.3",
+            "ref": "dae70df71978ae9226ae915ffd5fad817f5ca1f7"
+        },
+        "files": [
+            "config/packages/property_info.yaml"
+        ]
     },
     "symfony/routing": {
         "version": "6.0",
@@ -290,6 +278,18 @@
     },
     "symfony/string": {
         "version": "v6.0.3"
+    },
+    "symfony/validator": {
+        "version": "7.3",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "7.0",
+            "ref": "8c1c4e28d26a124b0bb273f537ca8ce443472bfd"
+        },
+        "files": [
+            "config/packages/validator.yaml"
+        ]
     },
     "symfony/var-dumper": {
         "version": "v6.0.6"
